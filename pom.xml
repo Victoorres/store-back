@@ -7,8 +7,8 @@
     <version>2.2.6.RELEASE</version>
     <relativePath/>
   </parent>
-  <groupId>com.spring_arquitetura</groupId>
-  <artifactId>spring_arquitetura</artifactId>
+  <groupId>com.store-back</groupId>
+  <artifactId>store-back</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>demo</name>
   <description>Demo project for Spring Boot</description>
@@ -45,11 +45,6 @@
           <artifactId>junit-vintage-engine</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <scope>annotationProcessor</scope>
     </dependency>
   </dependencies>
   <build>
