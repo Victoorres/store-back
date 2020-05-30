@@ -1,12 +1,5 @@
 package br.com.store.exceptions;
 
-
-
-import lombok.Getter;
-
-
-
-@Getter
 public class ResourceNotFoundDetails extends ErrorDetails{
 
     public static final class Builder {

@@ -18,12 +18,12 @@ public class SapatoController extends AbstractController<Sapato> {
     @PostMapping
     public ResponseEntity<?> save(@RequestBody() Sapato sapato) {
 
-       
+
         if (sapato.getNome() == null) {
         throw new ErrorExcep("O nome não pode ficar vazio");
         }
         return new ResponseEntity<>(service.save(sapato), HttpStatus.OK);
-       
+
 
     }
 }
